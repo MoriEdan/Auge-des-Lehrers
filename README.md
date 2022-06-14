@@ -1,4 +1,4 @@
-# Veyon - Virtual Eye On Networks
+# ADL - Virtual Eye On Networks
 
 [![.github/workflows/build.yml](https://github.com/veyon/veyon/actions/workflows/build.yml/badge.svg)](https://github.com/veyon/veyon/actions/workflows/build.yml)
 [![Latest stable release](https://img.shields.io/github/release/veyon/veyon.svg?maxAge=3600)](https://github.com/veyon/veyon/releases)
@@ -8,13 +8,13 @@
 [![license](https://img.shields.io/badge/license-GPLv2-green.svg)](LICENSE)
 
 
-## What is Veyon?
+## What is ADL?
 
-Veyon is a free and open source software for monitoring and controlling
-computers across multiple platforms. Veyon supports you in teaching in digital
+ADL is a free and open source software for monitoring and controlling
+computers across multiple platforms. ADL supports you in teaching in digital
 learning environments, performing virtual trainings or giving remote support.
 
-The following features are available in Veyon:
+The following features are available in ADL:
 
   * Overview: monitor all computers in one or multiple locations or classrooms
   * Remote access: view or control computers to watch and support users
@@ -30,30 +30,30 @@ The following features are available in Veyon:
 
 ## License
 
-Copyright (c) 2004-2022 Tobias Junghans / Veyon Solutions.
+Copyright (c) 2004-2022 Tobias Junghans / ADL Solutions.
 
 See the file COPYING for the GNU GENERAL PUBLIC LICENSE.
 
 
 ## Installation and configuration
 
-Please refer to the official Veyon Administrator Manual at https://docs.veyon.io/en/latest/admin/index.html
-for information on the installation and configuration of Veyon.
+Please refer to the official ADL Administrator Manual at https://docs.adl.io/en/latest/admin/index.html
+for information on the installation and configuration of ADL.
 
 
 ## Usage
 
-Please refer to the official Veyon User Manual at https://docs.veyon.io/en/latest/user/index.html
-for information on how to use Veyon.
+Please refer to the official ADL User Manual at https://docs.adl.io/en/latest/user/index.html
+for information on how to use ADL.
 
 
-## Veyon on Linux
+## ADL on Linux
 
 ### Downloading sources
 
 First grab the latest sources by cloning the Git repository and fetching all submodules:
 
-	git clone --recursive https://github.com/veyon/veyon.git && cd veyon
+	git clone --recursive https://github.com/MoriEdan/Auge-des-Lehrers.git && cd adl
 
 
 ### Installing dependencies
@@ -130,7 +130,7 @@ For generating a package you can run
 
 	fakeroot make package
 
-Then you'll get something like veyon_x.y.z_arch.deb or veyon-x.y.z.arch.rpm
+Then you'll get something like adl.y.z_arch.deb or adl-x.y.z.arch.rpm
 
 Alternatively you can install the built binaries directly (not recommended for
 production systems) by running the following command as root:
@@ -139,35 +139,35 @@ production systems) by running the following command as root:
 
 ### Arch linux
 
-A PKGBUILD can be found in the [AUR](https://aur.archlinux.org/packages/veyon/).
+A PKGBUILD can be found in the [AUR](https://aur.archlinux.org/packages/adl/).
 
 ### PPA
 
-This PPA contains official Veyon packages for Ubuntu suitable for use both on desktop computers and ARM boards (e.g. Raspberry Pi). Even though only packages for LTS releases are available they should work for subsequent non-LTS releases as well.
+This PPA contains official ADL packages for Ubuntu suitable for use both on desktop computers and ARM boards (e.g. Raspberry Pi). Even though only packages for LTS releases are available they should work for subsequent non-LTS releases as well.
 
-	sudo add-apt-repository ppa:veyon/stable
+	sudo add-apt-repository ppa:adl/stable
 	sudo apt-get update
 	
 ### openSUSE
 
-Veyon is available on official openSUSE Tumbleweed repository.
+ADL is available on official openSUSE Tumbleweed repository.
 
-	sudo zypper in veyon
+	sudo zypper in adl
 	
 For openSUSE Leap 15.2, use the unofficial package from Education repository.
 	 
-	 https://software.opensuse.org/package/veyon?search_term=veyon
+	 https://software.opensuse.org/package/adl?search_term=adl
 
 ## Join development
 
-If you are interested in Veyon, its programming, artwork, testing or something like that, you're welcome to participate in the development of Veyon!
+If you are interested in ADL, its programming, artwork, testing or something like that, you're welcome to participate in the development of ADL!
 
-Before starting the implementation of a new feature, please always open an issue at https://github.com/veyon/veyon/issues to start a discussion about your intended implementation. There may be different ideas, improvements, hints or maybe an already ongoing work on this feature.
+Before starting the implementation of a new feature, please always open an issue at https://github.com/MoriEdan/Auge-des-Lehrers/issues to start a discussion about your intended implementation. There may be different ideas, improvements, hints or maybe an already ongoing work on this feature.
 
 
 ## More information
 
-* https://veyon.io/
-* https://docs.veyon.io/
-* https://facebook.com/veyon.io/
-* https://twitter.com/veyon_io
+* https://adl.io/
+* https://docs.adl.io/
+* https://facebook.com/adl.io/
+* https://twitter.com/adl_io
