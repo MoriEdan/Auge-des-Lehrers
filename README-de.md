@@ -1,17 +1,17 @@
 # Auge des Lehrers (ADL) - Virtuelles Auge auf Netzwerke
 
-[![.github/workflows/build.yml](https://github.com/veyon/veyon/actions/workflows/build.yml/badge.svg)](https://github.com/veyon/veyon/actions/workflows/build.yml)
-[![Neueste stabile Version](https://img.shields.io/github/release/veyon/veyon.svg?maxAge=3600)](https://github.com/veyon/veyon/releases)
-[![Gesamte Downloads auf Github](https://img.shields.io/github/downloads/veyon/veyon/total.svg?maxAge=3600)](https://github.com/veyon/veyon/releases)
-[![Dokumentationsstatus](https://readthedocs.org/projects/veyon/badge/?version=latest)](https://docs.veyon.io/)
-[![Auf Transifex lokalisieren](https://img.shields.io/badge/localise-on_transifex-green.svg)](https://www.transifex.com/veyon-solutions/veyon/)
+[![.github/workflows/build.yml](https://github.com/MoriEdan/Auge-des-Lehrers/actions/workflows/build.yml/badge.svg)](https://github.com/MoriEdan/Auge-des-Lehrers/actions/workflows/build.yml)
+[![Neueste stabile Version](https://img.shields.io/github/release/veyon/veyon.svg?maxAge=3600)](https://github.com/MoriEdan/Auge-des-Lehrers/releases)
+[![Gesamte Downloads auf Github](https://img.shields.io/github/downloads/veyon/veyon/total.svg?maxAge=3600)](https://github.com/MoriEdan/Auge-des-Lehrers/releases)
+[![Dokumentationsstatus](https://readthedocs.org/projects/veyon/badge/?version=latest)](https://docs.adl.io/)
+[![Auf Transifex lokalisieren](https://img.shields.io/badge/localise-on_transifex-green.svg)](https://www.transifex.com/adl-solutions/adl/)
 [![license](https://img.shields.io/badge/license-GPLv2-green.svg)](LICENSE)
 
 
 ## Was ist ADL?
 
 ADL ist eine kostenlose Open-Source-Software zur Überwachung und Steuerung
-Computer auf mehreren Plattformen. Veyon unterstützt Sie beim digitalen Unterrichten
+Computer auf mehreren Plattformen. ADL unterstützt Sie beim digitalen Unterrichten
 Lernumgebungen, Durchführung virtueller Schulungen oder Fernunterstützung.
 
 Die folgenden Funktionen sind in ADL verfügbar:
@@ -39,23 +39,23 @@ Siehe die Datei COPYING für die GNU GENERAL PUBLIC LICENSE.
 
 ## Installation und Konfiguration
 
-Weitere Informationen finden Sie im offiziellen Veyon-Administratorhandbuch unter https://docs.veyon.io/en/latest/admin/index.html
-für Informationen zur Installation und Konfiguration von Veyon.
+Weitere Informationen finden Sie im offiziellen ADL-Administratorhandbuch unter https://docs.veyon.io/en/latest/admin/index.html
+für Informationen zur Installation und Konfiguration von ADL.
 
 
 ## Verwendungszweck
 
-Bitte lesen Sie das offizielle Veyon-Benutzerhandbuch unter https://docs.veyon.io/en/latest/user/index.html
-für Informationen zur Verwendung von Veyon.
+Bitte lesen Sie das offizielle ADL-Benutzerhandbuch unter https://docs.veyon.io/en/latest/user/index.html
+für Informationen zur Verwendung von ADL.
 
 
-## Veyon unter Linux
+## ADL unter Linux
 
 ### Herunterladen von Quellen
 
 Holen Sie sich zuerst die neuesten Quellen, indem Sie das Git-Repository klonen und alle Submodule abrufen:
 
-git clone --recursive https://github.com/veyon/veyon.git && cd veyon
+git clone --recursive https://github.com/MoriEdan/Auge-des-Lehrers.git && cd adl
 
 
 ### Abhängigkeiten installieren
@@ -132,7 +132,7 @@ Zum Generieren eines Pakets können Sie ausführen
 
 fakeroot-Make-Paket
 
-Dann erhalten Sie etwas wie veyon_x.y.z_arch.deb oder veyon-x.y.z.arch.rpm
+Dann erhalten Sie etwas wie adl_x.y.z_arch.deb oder adl-x.y.z.arch.rpm
 
 Alternativ können Sie die erstellten Binärdateien direkt installieren (nicht empfohlen für
 Produktionssysteme), indem Sie den folgenden Befehl als root ausführen:
@@ -141,35 +141,35 @@ Installation machen
 
 ### Arch-Linux
 
-Ein PKGBUILD ist im [AUR](https://aur.archlinux.org/packages/veyon/) zu finden.
+Ein PKGBUILD ist im [AUR](https://aur.archlinux.org/packages/adl/) zu finden.
 
 ### PPA
 
-Dieses PPA enthält offizielle Veyon-Pakete für Ubuntu, die sowohl für die Verwendung auf Desktop-Computern als auch für ARM-Boards (z. B. Raspberry Pi) geeignet sind. Obwohl nur Pakete für LTS-Releases verfügbar sind, sollten sie auch für nachfolgende Nicht-LTS-Releases funktionieren.
+Dieses PPA enthält offizielle ADL-Pakete für Ubuntu, die sowohl für die Verwendung auf Desktop-Computern als auch für ARM-Boards (z. B. Raspberry Pi) geeignet sind. Obwohl nur Pakete für LTS-Releases verfügbar sind, sollten sie auch für nachfolgende Nicht-LTS-Releases funktionieren.
 
-sudo add-apt-repository ppa:veyon/stable
+sudo add-apt-repository ppa:adl/stable
 sudo apt-get update
 
 ### openSUSE
 
-Veyon ist im offiziellen openSUSE Tumbleweed-Repository verfügbar.
+ADL ist im offiziellen openSUSE Tumbleweed-Repository verfügbar.
 
-sudo zypper in veyon
+sudo zypper in adl
 
 Verwenden Sie für openSUSE Leap 15.2 das inoffizielle Paket aus dem Education-Repository.
 
-https://software.opensuse.org/package/veyon?search_term=veyon
+https://software.opensuse.org/package/adl?search_term=adl
 
 ## Nehmen Sie an der Entwicklung teil
 
-Wenn Sie Interesse an Veyon, seiner Programmierung, Grafik, Tests oder ähnlichem haben, können Sie sich gerne an der Entwicklung von Veyon beteiligen!
+Wenn Sie Interesse an ADL, seiner Programmierung, Grafik, Tests oder ähnlichem haben, können Sie sich gerne an der Entwicklung von ADL beteiligen!
 
-Bevor Sie mit der Implementierung einer neuen Funktion beginnen, öffnen Sie bitte immer ein Problem unter https://github.com/veyon/veyon/issues, um eine Diskussion über Ihre beabsichtigte Implementierung zu beginnen. Möglicherweise gibt es verschiedene Ideen, Verbesserungen, Hinweise oder vielleicht eine bereits laufende Arbeit an diesem Feature.
+Bevor Sie mit der Implementierung einer neuen Funktion beginnen, öffnen Sie bitte immer ein Problem unter https://github.com/MoriEdan/Auge-des-Lehrers/issues, um eine Diskussion über Ihre beabsichtigte Implementierung zu beginnen. Möglicherweise gibt es verschiedene Ideen, Verbesserungen, Hinweise oder vielleicht eine bereits laufende Arbeit an diesem Feature.
 
 
 ## Mehr Informationen
 
-* https://veyon.io/
-* https://docs.veyon.io/
-* https://facebook.com/veyon.io/
-* https://twitter.com/veyon_io
+* https://adl.io/
+* https://docs.adl.io/
+* https://facebook.com/adl.io/
+* https://twitter.com/adl_io
